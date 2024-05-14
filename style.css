@@ -1,0 +1,207 @@
+body,
+html {
+  cursor: default;
+  font-family: 'Kalam', cursive;
+  background-color: #c1f1d5;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+svg {
+  position: absolute;
+}
+
+.layer1mountain {
+  position: absolute;
+  z-index: 10;
+  -webkit-filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+          filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+}
+
+
+
+.mountain1 {
+  top: 60vh;
+  height: 40vh;
+  margin-left: 0px;
+}
+
+.mountain2 {
+  top: 50vh;
+  height: 50vh;
+  margin-left: 100px;
+}
+
+.mountain3 {
+  top: 50vh;
+  height: 50vh;
+  margin-left: -200px;
+}
+
+.mountain4 {
+  top: 50vh;
+  height: 50vh;
+  margin-left: -450px;
+}
+
+.mountain5 {
+  top: 55vh;
+  height: 45vh;
+  margin-left: 350px;
+}
+
+.mountain6 {
+  top: 45vh;
+  height: 55vh;
+  margin-left: 500px;
+}
+
+.mountain7 {
+  top: 50vh;
+  height: 50vh;
+  margin-left: 50px;
+}
+
+.mountain8 {
+  top: 45vh;
+  height: 55vh;
+  margin-left: -120px;
+}
+
+.mountain9 {
+  top: 45vh;
+  height: 55vh;
+  margin-left: -300px;
+}
+
+.mountain10 {
+  top: 45vh;
+  height: 55vh;
+  margin-left: 380px;
+}
+
+.mountain11 {
+  top: 45vh;
+  height: 55vh;
+  margin-left: 200px;
+}
+
+.snow {
+  position: absolute;
+  opacity: 0;
+}
+
+.sunSVG {
+  -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera  */
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 5vh;
+  height: 30vh;
+  margin-left: 0;
+  -webkit-filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+            filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+}
+
+.sunRaySVG1 {
+  -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera  */
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 5vh;
+  height: 250px;
+  margin-left: -100px;
+  -webkit-filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+            filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+}
+
+.sunRaySVG2 {
+  -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera  */
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 5vh;
+  height: 250px;
+  margin-left: 250px;
+  -webkit-filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+            filter: drop-shadow( 5px 5px 5px rgba(44, 62, 80,.3) );
+}
+
+.sunRay {
+  opacity: 0;
+}
+
+.seasonName {
+  position: absolute;
+  font-size: 48px;
+  opacity: 0.3;
+  margin: 0;
+  top: 20px;
+  left: 20px;
+}
+
+.message {
+  position: relative;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: calc(50vh - 40px);
+  opacity: 0;
+  line-height: 70%;
+}
+
+.happyMothersDay {
+  font-size: 36px;
+  opacity: 0;
+  line-height: 300%;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+
+.made-with-love {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 15PX; /* Cambiado de "bottom: 10px;" a "top: 0;" */
+  text-align: center;
+  font-size: 10px;
+  z-index: 9999;
+  font-family: arial;
+  color: #e06ae0;
+  font-weight: 600;
+}
+.made-with-love i {
+  font-style: normal;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #c74f2b;
+  text-decoration: none;
+
+  
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+.made-with-love .dribble img {
+  max-width: 100%;
+  width: 26px;
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+}
+
+.made-with-love a {
+  font-weight: bold; /* Añadiendo negrita solo a los enlaces */
+}
